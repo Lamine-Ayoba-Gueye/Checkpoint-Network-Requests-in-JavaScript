@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Météo App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="weather-app">
+            <div class="search-box">
+                <input type="text" placeholder="Rechercher une ville..." id="search-input">
+                <button id="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+
+            <div class="weather-info">
+                <div class="location">
+                    <h1>Dakar, SN</h1>
+                    <p class="date">Lundi 18 Mars 2024</p>
+                </div>
+
+                <div class="current-weather">
+                    <div class="weather-icon">
+                        <i class="fas fa-sun"></i>
+                    </div>
+                    <div class="weather-data">
+                        <h2 class="temperature">20°C</h2>
+                        <p class="description">Ensoleillé</p>
+                    </div>
+                </div>
+
+                <div class="weather-details">
+                    <div class="detail">
+                        <i class="fas fa-temperature-high"></i>
+                        <div class="detail-info">
+                            <span>Ressenti</span>
+                            <p>22°C</p>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <i class="fas fa-wind"></i>
+                        <div class="detail-info">
+                            <span>Vent</span>
+                            <p>12 km/h</p>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <i class="fas fa-tint"></i>
+                        <div class="detail-info">
+                            <span>Humidité</span>
+                            <p>65%</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="forecast">
+                    <h3>Prévisions sur 5 jours</h3>
+                    <div class="forecast-container">
+                        <div class="forecast-day">
+                            <p>Mar</p>
+                            <i class="fas fa-cloud-sun"></i>
+                            <span>18°C</span>
+                        </div>
+                        <div class="forecast-day">
+                            <p>Mer</p>
+                            <i class="fas fa-cloud"></i>
+                            <span>16°C</span>
+                        </div>
+                        <div class="forecast-day">
+                            <p>Jeu</p>
+                            <i class="fas fa-cloud-rain"></i>
+                            <span>15°C</span>
+                        </div>
+                        <div class="forecast-day">
+                            <p>Ven</p>
+                            <i class="fas fa-sun"></i>
+                            <span>19°C</span>
+                        </div>
+                        <div class="forecast-day">
+                            <p>Sam</p>
+                            <i class="fas fa-cloud-sun"></i>
+                            <span>17°C</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
